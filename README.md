@@ -15,4 +15,4 @@ Desafio era criar um card que exibe um código QR que direciona para o site do F
 
 OU 
 
-Clique neste link: 
+Clique neste link: https://component-qrcode-aepp88w4x-marcely-costas-projects.vercel.app
