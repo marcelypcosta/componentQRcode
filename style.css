@@ -1,0 +1,44 @@
+:root {
+  --font: "Outfit", sans-serif;
+  --bgcolor-white: #ffffff;
+  --bgcolor-lightGray: #d5e1ef;
+  --ftcolor-grayishBlue: #7d889e;
+  --ftcolor-darkBlue: #1f314f;
+}
+
+body {
+  background-color: var(--bgcolor-lightGray);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-qrcode {
+  width: 320px;
+  padding: 16px;
+  font-family: var(--font);
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.img-qrcode {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.text-card {
+  text-align: center;
+}
+
+.text-1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ftcolor-darkBlue);
+}
+
+.text-2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--ftcolor-grayishBlue);
+}
